@@ -1,0 +1,116 @@
+.menuApp {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.pad20{
+  padding: 20px;
+}
+.Active{
+  background-color:aquamarine;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navBtn {
+  padding: 4px;
+  color: #000;
+  background-color: #e9e9e9;
+  margin-right: 10px;
+  border: 1px solid #000;
+  text-decoration: none;
+}
+
+.homeContent li{
+  list-style: none;
+  font-size: 1.2em;
+}
+
+.catList {
+  margin-left: 20px;
+}
+
+.catList h4{
+  margin-bottom: 10px;
+}
+
+.list-style{
+  list-style: none;
+  line-height: 30px;
+}
+
+.catList a{
+  text-decoration: none;
+  color: #000;
+}
+
+.catList a:hover{
+  border: 1px solid #000;
+}
+
+.itemsTable {
+    border: 1px solid #ddd;
+}
+
+.itemsTable>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+
+.itemsTable>thead>tr>th {
+  font-weight: bold;
+}
+
+.itemsTable>thead>tr>th,
+.itemsTable>tbody>tr>td {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 5px;
+}
+
+.itemsTable>tbody>tr>td {
+  padding: 5px;
+}
+
+
+.itemsTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9
+}
+
+@media only screen and (min-width: 944px) {
+  .catList {
+    display: inline-block;
+    width: 30%;
+    float: left;
+  }
+
+  .itemsTable {
+    width: 60%;
+    display: inline-block;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
